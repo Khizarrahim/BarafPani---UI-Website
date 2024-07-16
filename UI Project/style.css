@@ -1,0 +1,623 @@
+
+body{
+  overflow-x:hidden; 
+  
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.vid1{
+   width: 100%;
+}
+/*----FONTS------*/
+@font-face {
+    font-family: Fun Games;
+    src: url(Fun Games.ttf);
+    font-family: Valorant;
+    src: url(Valorant Font.ttf);
+}
+.logoig{
+    width: 10vw; 
+    margin-left:-25px; 
+    height: 10vh;
+    
+}
+
+/*---Navigation Bar---*/
+.nav-bar{
+
+    background: black;
+    padding: 20px; 
+    width: 100vw;
+    height: 5vh;  
+    float: left;
+    position: fixed;
+    z-index: 99;
+}
+
+.navbtns{
+    width: 15vw;
+    height: 5vh;
+    background-color: black;
+    font-size: 23px;
+    font-family: Fun Games;
+    border-radius: 12px;
+    color: white;
+    border: 2px solid black;
+    
+}
+
+.logo{
+    width: 10vw;
+    height: 5vh;
+    float: right;
+    margin-right: 70px;
+}
+
+.navbtns:hover{
+    background-color: #0f1923;
+}
+
+/*----First Box----*/
+.body1{
+    background-color: white;
+    width: 100vw;
+    height: 117vh;
+}
+.body1_heading{
+    margin: -572px 0px 0px 270px;
+    position: absolute;
+}
+.body1_text{
+    font-family: Valorant;
+    font-size: 150px;
+    color: white;
+}
+
+
+.play {
+    all: unset;
+    position: relative;
+    cursor: pointer;
+    margin: 470px 0px 0px 115px
+}
+
+.play::after {
+  content: '';
+  position: absolute;
+  left: -11px;
+  top: -10px;
+  width: calc(100% + 20px);
+  height: calc(50% + 5px);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.play::before {
+  content: '';
+  position: absolute;
+  left: -11px;
+  bottom: -10px;
+  width: calc(100% + 20px);
+  height: calc(50% + 5px);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.play .playbtn {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  padding: 15px 0;
+  background: blue;
+}
+
+.play .playbtn::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 5px;
+  height: 5px;
+  background: #0f1923;
+  transition: 0.4s;
+}
+
+.play:hover .playbtn::after {
+  background: #ece8e1;
+}
+
+.play .playbtn .btnsp {
+  position: absolute;
+  width: 120%;
+  height: 110%;
+  transform: translate(-100%, -20px);
+  background: #0f1923;
+  clip-path: polygon(5% 0, 100% 0, 95% 100%, 0% 100%);
+  transition: 0.4s;
+}
+
+.play:hover .playbtn .btnsp {
+  transform: translate(-10%, -20px);
+}
+
+.play .playbtn a {
+  position: relative;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 20px 80px;
+}
+
+/*----Second Box----*/
+
+.vid2{
+    width:110%;
+}
+
+.body2{
+    background-color: #f1f1f1;
+    width: 100vw;
+    height: 100vh;
+}
+.body2_heading{
+    width: 25vw;
+    height:25vh;
+    
+}
+.body2_para{
+    width: 40vw;
+    height:30vh;
+}
+
+.section2{
+    background-color: #f1f1f1;
+    width: 40vw;
+    height: 55vh;
+    float: right;
+    margin-top: 12%;
+    margin-right: 10%;
+    
+}
+.section3{
+    
+    width: 40vw;
+    height: 55vh;
+    float: left;
+    margin-top: 14%;
+    margin-left: 10%;
+    
+}
+p4{
+    font-family: Fun Games;
+    font-size: 50px;
+    color: black;
+}
+
+p5{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.sbar1{
+    background-color: black;
+    width: 10vw;
+    height: 5vh;
+    margin: -325px 0px 0px -14px;
+    position: absolute;
+}
+p3{
+    font-family: Fun Games;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+p10{
+    font-family: Fun Games;
+    font-size: 60px;
+    position: absolute;
+    margin-top: -100px;
+}
+
+.sbar2{
+    margin-top: -4px;
+}
+
+
+
+/*---MAPS----*/
+
+h1{
+    font-family: Fun Games;
+    font-size: 50px;
+    
+}
+
+.Maps_text{
+    margin: -278px 0px 0px 78px;
+    position: absolute;
+}
+
+p6{
+    font-family: Fun Games;
+    font-size: 60px;
+    color: white;
+
+}
+.Maps_text2{
+    margin: 60px 0px 0px 350px;
+    position: absolute;
+}
+
+p16{
+    font-family: Fun Games;
+    font-size: 60px;
+    color: white;
+
+}
+
+
+.maps{
+    background-color: #0f1923;
+    width: 100vw;
+    height: 100vh;
+}
+
+.s1{    
+    position: absolute;
+    top: 218%;
+    left: 25%;
+    background: rgba(0,0,0,0.3);
+    width: 1px;
+    height: 100vh;
+}
+.s2{    
+    position: absolute;
+    top: 218%;
+    left: 50%;
+    background: rgba(0,0,0,0.3);
+    width: 1px;
+    height: 100vh;
+}
+.s3{    
+    position: absolute;
+    top: 218%;
+    left: 75%;
+    background: rgba(0,0,0,0.3);
+    width: 1px;
+    height: 100vh;
+}
+
+
+.map1{
+ 
+  padding: 20px; 
+  width: 25vw;
+  height: 30vh;
+  display: inline-block;
+  margin-left: 4%;
+  margin-top: 10%;
+  position: relative;
+  
+}
+.map2{
+ 
+    padding: 20px; 
+    width: 25vw;
+    height: 30vh;
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 10%;
+    position: relative;
+}
+.map3{
+
+  padding: 20px; 
+  width: 25vw;
+  height: 30vh;
+  display: inline-block;
+  margin-left: 4%;
+  margin-top: 10%;
+  position: relative;
+}
+img{
+   width: 25vw;
+    height: 31vh;
+}
+.image{
+    width: 25vw;
+    height: 31vh;
+    display: block;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #18dcff25;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.map1:hover .overlay{
+    width:100%;
+}
+.map2:hover .overlay{
+     width:100%;
+}
+
+.map3:hover .overlay{
+     width:100%;
+}
+
+
+/*----Third Box----*/
+.body3{
+    background-color: #0f1923 ;
+    width: 100vw;
+    height: 30vh;
+    margin-top: 80px;
+}
+.body3_heading{
+    position: absolute;
+    margin: 15px 0px 0px 380px;
+}
+p7{
+    font-family: Fun Games;
+    font-size: 40px;
+    color: white;
+}
+.body3_text{
+    position: absolute;
+    margin: 123px 0px 0px 165px;
+}
+p1{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    
+}
+.socials{
+    margin: 55px 0px 0px 500px;
+    position: absolute;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: black;
+}
+.fa:hover {
+    color: #888;
+}
+
+/*-------------CHARACTERS------------*/
+.characters{
+    background-color: #f1f1f1;
+    width: 100vw;
+    height: 100vh;
+}
+.yoru{
+    width: 30vw;
+    height: auto;
+    float: left;
+}
+.jett{
+    width: 30vw;
+    height: auto;
+    float: left;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.aboutus{
+    width: 40vw;
+    height: 45vh;
+    background-color: #f1f1f1;
+    float: right;
+    position: absolute;
+    margin: 145px 0px 0px 870px;
+    
+}
+p11{
+    font-family: Fun Games;
+    font-size: 50px;
+    margin: 0px 0px 0px 0px;
+}
+p12{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+
+@media (max-width:480px){
+    .body1 {
+        background-color: white;
+        width: 100vw;
+        height: 90vh;
+    }
+    
+    .body1_heading{
+        margin: -474px 0px 0px 350px;
+        position: absolute;
+    }
+    
+    .body1_text{
+        font-family: Valorant;
+        font-size: 120px;
+    }
+    
+    .vid1{
+        width: 235vw;
+    }
+    
+    .nav-bar{
+        background: black;
+        padding: 20px;
+        width: 222vw;
+        height: 5vh;
+        float: left;
+        position: fixed;
+        z-index: 99;
+    }
+    
+    .navbtns{
+        width: 15vw;
+        height: 5vh;
+        background-color: black;
+        font-size: 20px;
+        font-family: Fun Games;
+        border-radius: 12px;
+        color: white;
+        border: 2px solid black;
+        display: inline-block;
+        margin-left: 91px; 
+    }
+    
+    .body2 {
+        background-color: #f1f1f1;
+        width: 235vw;
+        height: 120vh;
+        margin-top: 100px;
+    }
+    
+    .section2 {
+        background-color: #f1f1f1;
+        width: 100vw;
+        height: 55vh;
+        float: right;
+        margin-top: 12%;
+        margin-right: 7%;
+    }
+    .p10 {
+        font-family: Fun Games;
+        font-size: 40px;
+        position: absolute;
+        margin-top: -100px;
+    }
+    .sbar2 {
+        margin-top: 10px;
+        width: 120vw;
+    }
+    .p4 {
+        font-family: Fun Games;
+        font-size: 35px;
+        color: black;
+    }
+    .p5 {
+        font-family: sans-serif;
+        font-size: 17px;
+        color: black;
+    }
+    .sbar1{
+        width: 26vw;
+        margin: -282px 0px 0px -14px;
+        position: absolute;
+    }
+    .section3{
+        
+    }
+    p10{
+        font-size: 40px;
+    }
+    p4{
+        font-size: 25px;
+    }
+    p5{
+        font-size: 16px;
+    }
+    .maps{
+        width: 235vw;
+    }
+    .s1{
+        top: 230%;
+        left: 51%;
+    } 
+    .s2{
+        top: 230%;
+        left: 116%;
+    }
+    .s3{
+        top: 230%;
+        left: 180%;
+    }
+    .map1{
+        width: 50vw;
+    }
+    .map2{
+        width: 50vw;
+    }
+    .map3{
+        width: 50vw;
+    }
+    .Maps_text{
+        margin: -250px 0px 0px 78px;
+    }
+    p6{
+        font-size: 30px;
+    }
+    .characters{
+        width: 235vw;
+    }
+    .yoru{
+        width: 75vw;
+    }
+    .jett{
+        width: 75vw;
+    }
+    .aboutus{
+        width: 70vw;
+        margin: 130px 0px 0px 760px;
+    }
+    p11{
+        font-size: 25px;
+    }
+    .play{
+        margin: 420px 0px 0px 90px;
+    }
+    .body3{
+        width: 235vw;
+    }
+    .body3_heading{
+       width: 120vw;
+        margin: 15px 0px 0px 340px; 
+    }
+    p7{
+        font-size: 30px;
+    }
+    .socials{
+        display: flex;
+        margin: 55px 0px 0px 375px
+    }
+    .body3_text{
+        width: 190vw;
+        margin: 122px 0px 0px 128px;
+    }
+    p1{
+        font-size: 12px;
+    }
+    .Maps_text2{
+        width: 88vw;
+    }
+    .logoig{
+        width: 28vw; 
+        margin-left:-25px; 
+        height: 10vh;
+}   
+}
