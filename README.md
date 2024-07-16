@@ -18,8 +18,8 @@ The game boasts a custom-designed user interface, crafted using HTML and CSS to 
 ### Graphics
 High-quality, custom graphics created with HTML5 Canvas and CSS make the game visually captivating, creating an immersive atmosphere for players.
 
-![Custom UI](ui-images/LandingPage1.PNG)
-![Gameplay Screenshot](ui-images/LP2.PNG)
+![Custom UI](UI Project/ui-images/LandingPage1.PNG)
+![Gameplay Screenshot](UI Project/ui-images/LP2.PNG)
 ![Gameplay Screenshot](ui-images/Lp3.PNG)
 ![Gameplay Screenshot](ui-images/Final.PNG)
 
